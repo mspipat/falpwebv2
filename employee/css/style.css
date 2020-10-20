@@ -1,0 +1,77 @@
+#home {
+	padding-top: 45px;
+	background-color: white;
+	filter:drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.1));
+	filter:opacity(85%);
+}
+#profile {
+	padding: 30px; 
+	margin: 20px;
+	background-color: white;
+}
+#info:hover {
+	color: #01579b;
+}
+.table-menu {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+ /* border-radius: 50px;*/
+  margin: 10px;
+  border: 2px solid rgba(3, 169, 244, 0.7);
+  color: #000;
+  }
+  .table-menu:hover {
+   background: rgba(3, 169, 244, 0.7);
+   border: 2px solid #448aff;
+   color: #fff;
+  }
+  table {
+    text-shadow: none;
+  }
+  .gov-menu, .bank-menu {
+    display: inline-block;
+    padding: 8px 28px;
+    margin: 10px;
+    border: 2px solid rgba(3, 169, 244, 0.7);
+    color: #000;
+  }
+  .gov-menu img, .bank-menu img {
+    height: 100px;
+    width: 200px;
+  }
+  .gov-menu:hover, .bank-menu:hover  {
+   background: rgba(3, 169, 244, 0.7);
+   border: 2px solid #448aff;
+   color: #fff;
+   }
+  .news {
+      /*width: 500px;*/
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 20px;
+      margin-top: 10px;
+    }
+  .news_title {
+      color: #448aff;
+      text-shadow: none;
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+    }
+  .news img {
+     margin-left: 70px;
+     margin-top: -5px;
+     width: 1000px;
+     height: 450px;
+    }
+  .footer-date {
+      color: #3E4551;
+      text-shadow: none;
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      margin: 5px;
+    }

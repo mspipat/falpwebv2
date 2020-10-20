@@ -1,0 +1,34 @@
+SELECT 
+                        C.C_MKRCOD AS CarMaker
+                       ,C.C_SYNHIN AS ProductNo
+                       ,C.C_LOTNUM AS LotNo
+                       ,C.C_LOTSEQNO AS Serial
+                       ,C.C_SEQNO AS PolySequence
+                       ,C.L_NYKSUU AS PolyQty
+                       ,A.C_TWNO AS PalletNo
+                       ,A.C_INVNO AS InvoiceNo
+                       ,A.D_NGAY_XAMA AS SCANDATE
+                       ,TO_DATE(A.C_KAKUTEISYKYMD) AS ShipOutDate
+                       ,A.D_BLDATE AS FixedBLDate
+                FROM 
+                     T_YUSYUTDAT A                
+                LEFT OUTER JOIN
+                     T_YUSYUTDATMSI B
+                ON
+                     A.C_PONO = B.C_PONO
+                AND 
+                     A.C_TWNO = B.C_TWNO
+                AND 
+                     A.C_LOTNO = B.C_LOTNO
+                INNER JOIN 
+                     T_SHNNYKRSK C
+                ON 
+                     B.C_SYNHIN = C.C_SYNHIN
+                AND 
+                     B.C_LOTNO = C.C_LOTNUM
+                AND 
+                     B.C_LOTSEQNO = C.C_LOTSEQNO
+                AND 
+                     B.C_SEQNO = C.C_SEQNO
+                --WHERE 
+                --     TO_CHAR(A.D_NGAY_XAMA,'YYYYMMDD') >= TO_CHAR(SYSDATE,'YYYYMMDD')

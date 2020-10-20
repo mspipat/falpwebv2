@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'roboto condensed';
+  src: url('../../fonts/roboto-condensed/RobotoCondensed-Regular.ttf');
+}
+
+.fr-view {
+  font-family: "roboto condensed" !important;
+/*  font-size: 18px;
+  color: #444444;*/
+}
+
+.tr-60{
+	width: 200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
