@@ -22,29 +22,33 @@
       About Us Section
     ============================-->
     <section id="about">
+      <div class="container-fluid">
+        <div class="icon-box wow fadeIn" data-wow-delay="0.2s">
+               <img class="img-fluid" src="img/building/FRONT VIEW 1.JPG">
+               <!-- <img class="img-fluid" src="img/about/fas.jpg" width="1138" height="250"> -->
+          </div>
+      </div>
       <div class="container">
         <div class="row about-container">
-          <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                 <img src="img/about/fas.jpg" width="1138" height="250">
-            </div>
-          <div class="row about-container">
+          <div class="row about-container mt-3">
           <div class="col-lg-6 content order-lg-1 order-2">
            <!--  <h2 class="title">About Us</h2> -->
-            <h1> About Furukawa Automotive Systems Lima Phil., Inc.</h1>
+           <div class="icon-box wow fadeInDown">
+            <h3> About Furukawa Automotive Systems Lima Phil., Inc.</h3>
               <p class="text-justify">Furukawa Automotive Systems LIMA Philippines Inc. is an affiliate of Furukawa Automotive Systems under Furukawa Electric Group. FALP was certified by SEC on Jan. 16, 2012. Furukawa Automotive Systems started in 2007 as an organization that was the key driver in the pursuit of the automotive components- related businesses of the Furukawa Electric Group, in both name and fact, through a merger with the Automotive Products Division of Furukawa Electric Co., Ltd. The company manufactures automotive wire harnesses. With a basic policy of customers first and offering quality and services that are able to win customer’s trust and satisfaction, the company offers optimum solutions drawing on the abundant and diverse materials capabilities of the Group and with a mobility and footwork not found with large enterprises.</p>
-            
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+  </div>
+            <div class="icon-box wow fadeInDown" data-wow-delay="0.2s">
              <!--  <div class="icon"><i class="fa fa-certificate"></i></div> -->
               <!-- <h4 class="title">Quality Policy</h4> -->
               <p class="text-justify">Furukawa Automotive Systems (FAS) is a Japanese company that develops, designs and manufactures automotive wire harnesses.</p>
             </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+            <div class="icon-box wow fadeInDown" data-wow-delay="0.4s">
               <p class="text-justify">Since its establishment in 1950, FAS has worked together with Furukawa Electric Co., Ltd. in promoting the progress of automotive industry. Due to increasing demand for wire harness and circuits, a new plant started its operation at the Lima Technology Center in Lipa City, Batangas  last July 2012. </p>
             </div>
         </div>
         <div class="col-lg-6 content order-lg-1 order-2">
-             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+             <div class="icon-box wow fadeInUp">
               <p class="text-justify">The new Company, Furukawa Automotive Systems Lima Philippines, Inc. manufactures wire harness which functions as the veins and nerve system of vehicles. We are looking for dynamic and goal-driven individuals who are interested to join our pioneering team and establish a solid career.</p>
             </div>
              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">

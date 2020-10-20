@@ -9,15 +9,15 @@
  <?php
   include 'src/head.php';
 ?>
-</head><!--Hey-->
+</head>
 <body>
  <?php
   include 'src/nav.php';
 ?>
-  <section id="hero" style="background-image: url('img/falp-dim.jpg')">
-    <div class="hero-container">
+  <section id="hero" style="background-image: url('img/building/LEFT SIDE VIEW 1.JPG')">
+    <div class="hero-container mt-5">
         <h1>FURUKAWA AUTOMOTIVE SYSTEMS </h1>
-        <h2> LIMA PHILIPPINES INC.</h2>
+        <h1> LIMA PHILIPPINES INC.</h1>
         <a href="#about" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- #hero -->
@@ -33,7 +33,7 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">About Us</h2>
-            <h1> Furukawa Automotive Systems Lima Phil., Inc.</h1>
+            <h3> Furukawa Automotive Systems Lima Phil., Inc.</h3>
               <p class="text-justify">Furukawa Automotive Systems LIMA Philippines Inc. is an affiliate of Furukawa Automotive Systems under Furukawa Electric Group. FALP was certified by SEC on Jan. 16, 2012. Furukawa Automotive Systems started in 2007 as an organization that was the key driver in the pursuit of the automotive components- related businesses of the Furukawa Electric Group, in both name and fact, through a merger with the Automotive Products Division of Furukawa Electric Co., Ltd. The company manufactures automotive wire harnesses. With a basic policy of customers first and offering quality and services that are able to win customer’s trust and satisfaction, the company offers optimum solutions drawing on the abundant and diverse materials capabilities of the Group and with a mobility and footwork not found with large enterprises.</p>
 
             <div class="icon-box wow fadeInUp">
@@ -44,7 +44,7 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-building-o"></i></div>
-              <h4 class="title">Corporate Mission</h4>
+              <h4 class="title"><a href="">Corporate Mission</a></h4>
               <ul class="description">
               <li> Stabilize Quality & Delivery</li>
               <li> Establish competitiveness through structural reform, by establishing further business expansion </li>
@@ -56,9 +56,9 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight">
-            <img class="img-fluid" src="img/logo-fas.png">
-            <img class="img-fluid pt-3" src="img/furukawa-building.jpg">
-         <!--    <img class="img-fluid" src="img/about/map.jpg"> -->
+            <img class="img-fluid mt-2 rounded" style="box-shadow: 3px 3px #b1bace;" src="img/furukawa-building.jpg">
+            <img class="img-fluid mt-2 rounded" style="box-shadow: 3px 3px #b1bace;" src="img/building/Front.jpg">
+            <img class="img-fluid mt-2 rounded" style="box-shadow: 3px 3px #b1bace;" src="img/building/Annez.jpg">
           </div>
           
         </div>
@@ -102,149 +102,111 @@
       EVENTS
     ============================-->
     <section id="events">
-      <div class="container">
-          <div class="section-header">
-          <h3 class="section-title" style="margin-top:7%;">Events</h3>
-          <p class="section-description"> We have lot of events here! </p>
+  <div class="container">
+    <div class="section-header">
+      <h3 class="section-title" style="margin-top:7%;">Events</h3>
+      <p class="section-description"> We have lot of events here! </p>
+    </div><center>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+      </ol>
+    <!-- </div> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" height="500" src="img/events/QCC-8winner.jpg" alt="olympic">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h5 style="text-shadow: 2px 1px black;">8th QCC Cycle 1 2019 Winners</h5>
+          </div>
+      </div> <!-- 1 -->
+      <div class="carousel-item">
+        <img class="d-block w-100" height="500" src="img/events/QCC-traningapril.jpeg" alt="qcc">
+        <div class="carousel-caption d-none d-md-block text-white">
+            <h5 style="text-shadow: 2px 1px black;"> QCC Training-April 2019</h5>
+          </div>
+      </div>  <!-- 2 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/olympic/olympic-2.jpg" alt="olympic">
+          <div class="carousel-caption d-none d-md-block text-white">
+              <h5 style="text-shadow: 2px 1px black;">FALP OLYMPIC 2019</h5>
+            </div>
+        </div>  <!-- 3 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch1-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 1</p>    
+            </div>
+      </div>  <!-- 4 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch2-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 2</p>    
+            </div>
+      </div>  <!-- 5 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch3-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 3</p>    
+            </div>
+      </div>  <!-- 6 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch4-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 4</p>    
+            </div>
+      </div>  <!-- 7 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch5-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 5</p>    
+            </div>
+      </div>  <!-- 8 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/batch6-st.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 6</p>    
+            </div>
+      </div>  <!-- 9 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/am1.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
+            </div>
+      </div>  <!-- 10 -->
+      <div class="carousel-item">
+          <img class="d-block w-100" height="500" src="img/events/team/am2.jpg" alt="team">
+          <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
+            </div>
+      </div>  <!-- 11 -->
+      <div class="carousel-item">
+        <img class="d-block w-100" height="500" src="img/events/xmas_partyX.jpg" alt="team">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">CHRISTMAS PARTY 2018 <br> Dance Contest Winners</p>    
         </div>
-  <center>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-  <!--   <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="14"></li> -->
-    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="15"></li> -->
-    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="17"></li> -->
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" height="500" src="img/events/QCC-8winner.jpg" alt="olympic">
-      <div class="carousel-caption d-none d-md-block text-white">
-          <h5 style="text-shadow: 2px 1px black;"">8th QCC Cycle 1 2019 Winners</h5>
+      </div>  <!-- 12 -->
+      <div class="carousel-item">
+        <img class="d-block w-100" height="500" src="img/events/team/manager-1.jpg" alt="team">
+        <div class="carousel-caption d-none d-md-block text-white">
+          <p style="margin-top: -10px;text-shadow: 2px 1px black;">Our Managers! <br> Managers team building at Gratchi's Getaway, Tagaytay</p>    
         </div>
-    </div> <!-- 1 -->
-    <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/QCC-traningapril.jpeg" alt="qcc">
-      <div class="carousel-caption d-none d-md-block text-white">
-          <h5 style="text-shadow: 2px 1px black;""> QCC Training-April 2019</h5>
-        </div>
-    </div>  <!-- 2 -->
-  <!--  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/MSA 2.jpg" alt="msa">
-      <div class="carousel-caption d-none d-md-block text-white">
-          <h5 style="text-shadow: 2px 1px black;""> MSA Training-March 2019</h5>
-        </div>
-    </div> -->  <!-- 3 -->
-   <!--  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/BOSH.png" alt="bosh">
-      <div class="carousel-caption d-none d-md-block text-white">
-          <h5 style="text-shadow: 2px 1px black;""> Basic Occupational Safety & Health Training-Feb.2019</h5>
-        </div>
-    </div> -->  <!-- 4 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/olympic/olympic-2.jpg" alt="olympic">
-      <div class="carousel-caption d-none d-md-block text-white">
-          <h5 style="text-shadow: 2px 1px black;"">FALP OLYMPIC 2019</h5>
-        </div>
-    </div>  <!-- 5 -->
-  <!-- <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/summer/summer-1.jpg" alt="summer">
-      <div class="carousel-caption d-none d-md-block">
-           <p style="margin-top: -10px;text-shadow: 2px 1px black;">SUMMER OUTING 2019 <br> Held at Laiya, San Juan, Batangas</p>
-        </div>
-  </div> -->  <!-- 6 -->
-   <!-- <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/summer/summer-2.jpg" alt="summer">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">SUMMER OUTING 2019 <br> Summer Outing 2019 with Vietnamese Visitors</p>
-      </div>
-  </div> -->  <!-- 7 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch1-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 1</p>    
-        </div>
-  </div>  <!-- 8 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch2-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 2</p>    
-        </div>
-  </div>  <!-- 9 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch3-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 3</p>    
-        </div>
-  </div>  <!-- 10 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch4-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 4</p>    
-        </div>
-  </div>  <!-- 11 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch5-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 5</p>    
-        </div>
-  </div>  <!-- 12 -->
-  <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/batch6-st.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 6</p>    
-        </div>
-  </div>  <!-- 13 -->
-   <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/am1.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
-        </div>
-  </div>  <!-- 14 -->
-   <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/am2.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
-        </div>
-  </div>  <!-- 15 -->
-
-   <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/xmas_partyX.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">CHRISTMAS PARTY 2018 <br> Dance Contest Winners</p>    
-        </div>
-  </div>  <!-- 16 -->
-   <div class="carousel-item">
-      <img class="d-block w-100" height="500" src="img/events/team/manager-1.jpg" alt="team">
-      <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">Our Managers! <br> Managers team building at Gratchi's Getaway, Tagaytay</p>    
-        </div>
-  </div>  <!-- 17 -->
-   <!-- <div class="carousel-item"> -->
-  <!--     <img class="d-block w-100" height="500" src="img/events/team/manager-2.jpg" alt="team"> -->
-      <!-- <div class="carousel-caption d-none d-md-block text-white">
-      <p style="margin-top: -10px;text-shadow: 2px 1px black;">Our Managers! <br> Managers team building at Gratchi's Getaway, Tagaytay</p>    
-        </div> -->
-  </div>  <!-- 18 -->
-  </div>
+      </div>  <!-- 13 -->
     </div>
-</div>
-<br>
-      </div>
-    </section>
+</div> 
+  </div>
+</section>
     <!--==========================
       Products Section
     ============================-->

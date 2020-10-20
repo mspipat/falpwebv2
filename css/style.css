@@ -142,10 +142,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url('../img/falp-dim.jpg') top center;
- /* background: url(../img/hero-bg.jpg) top center;*/
   background-size: cover;
   position: relative;
+  background-position: center;
+  opacity: 0.9;
+  /* object-fit: contain; */
 }
 
 @media (min-width: 1024px) {
@@ -178,9 +179,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  /*font-family: fontBlockGradient;*/
+  /* font-family: fontBlockGradient; */
   display: inline-block;
-  color: #eee;
+  color:#01579b;
+  text-shadow: 2px 1px white;
   font-weight: normal;
   margin: 0;
   font-size: 55px;
@@ -200,11 +202,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
- /* font-family: fontBlockGradient;*/
+ /* font-family: fontBlockGradient; */
   display: inline-block;
-  color: white;
+  color:#01579b;
+  text-shadow: 2px 1px white;
   font-weight: normal;
-  color: #eee;
   margin-bottom: 50px;
   font-size: 55px;
 }
@@ -228,13 +230,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  background-color: white;
+  /* border: 2px solid #fff; */
+  border: 2px solid #01579b;
+  color:#01579b;
 }
 
 #hero .btn-get-started:hover {
-  background: rgba(3, 169, 244, 0.7);
-  border: 2px solid #448aff;
+  background: #01579b;;
+  border: 2px solid white;
+  color: white;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -313,10 +318,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
+  text-shadow: 1px 1px #01579b;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   outline: none;
 }
 
@@ -331,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4FC1F4;
+  background-color:#01579b;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -521,8 +527,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid rgba(3, 169, 244, 0.7);
-  color: #000;
+  /* border: 2px solid rgba(3, 169, 244, 0.7); */
+  /* color: #000; */
+  background-color: white;
+  border: 2px solid #01579b;
+  color:#01579b;
 }
 #clients .btn-see-more {
   font-family: "Poppins", sans-serif;
@@ -540,13 +549,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .btn-see-more:hover {
-   background: rgba(3, 169, 244, 0.7);
+   /* background: rgba(3, 169, 244, 0.7);
   border: 2px solid #448aff;
-  color: #fff;
+  color: #fff; */
+  background: #01579b;;
+  border: 2px solid white;
+  color: white;
 }
 #about {
-  background: #fff;
-  padding: 80px 0;
+  /* background: #fff; */
+  background: #e0e0e0;
+  padding: 40px 0;
 }
 
 /*#about .about-container .background {
@@ -555,9 +568,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }*/
 
-#about .about-container .content {
-  background: #fff;
-}
+/* #about .about-container .content {
+  background: #fff;  
+} */
 
 #about .about-container .title {
   color: #333;
@@ -580,14 +593,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  /* background: #fff; */
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  /* background: #fff; */
   width: 64px;
   height: 64px;
   display: flex;
@@ -596,11 +609,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid rgba(3, 169, 244, 0.7);
+  border: 2px solid #01579b;
 }
 
 #about .about-container .icon-box .icon i {
-  color: rgba(3, 169, 244, 0.7);
+  color: #01579b;
   font-size: 24px;
 }
 
@@ -610,10 +623,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
   font-size: 18px;
   text-transform: uppercase;
+  color:#01579b;
 }
-
+#about .about-container h3, p{
+  color: black;
+}
 #about .about-container .icon-box .title a {
-  color: #111;
+  color:#01579b;
 }
 
 #about .about-container .icon-box .description {
@@ -621,6 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   font-size: 14px;
   text-align: justify;
+  color: black;
 }
 
 /* Facts Section
@@ -672,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: rgba(3, 169, 244, 0.7);;
+  background:white;
 }
 
 #achievements .icon a {
@@ -680,17 +697,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #achievements .icon i {
-  color: #fff;
-  font-size: 24px;
+  color:#01579b;
+  font-size: 30px;
 }
 
 #achievements .box:hover .icon {
-  background: #fff;
-  border: 1px solid #2196f3;
+  background:#01579b;
+  
+  border: 1px solid white;
 }
 
 #achievements .box:hover .icon i {
-  color: rgba(3, 169, 244, 0.7);
+  color: white;
 }
 
 #achievements .box:hover .icon a {
@@ -794,7 +812,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/building/LEFT SIDE VIEW 1.JPG") fixed center center; */
+  background: linear-gradient(rgba(3, 169, 244, 0.1), rgba(0, 0, 0, 0.6)), url("../img/building/LEFT SIDE VIEW 1.JPG") fixed center center;
   background-size: cover;
   padding: 150px 0;
 }
@@ -1068,7 +1087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #fff;
     color: #000;*/
     /*padding: 20px 20px 15px 40px;*/
-}
+/* } */
 .tag_line, #tag_line {
   color: #e3f2fd;
   font-size: 24px;

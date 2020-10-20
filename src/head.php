@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 <meta name="description" content="">
 <meta name="author" content="">
   <title>Furukawa Automotive Systems Lima Phils.</title>
@@ -20,6 +20,6 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css?v=2" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
