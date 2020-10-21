@@ -15,39 +15,7 @@
 
 ?>
 <style type="text/css">
-  .tag_line {
- /* color: #42a5f5;*/
- color: #1565c0;
-  font-size: 24px;
- /* text-shadow: 1px 1px #42a5f5;*/
-  background-color: #fff; 
-  opacity: 0.8;
-  /*border: 2px solid;*/
-  border-radius: 8px;
-}
- #clients .btn-see-more {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  /*border-radius: 50px;*/
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-/*color: #fff;*/*/
-  color: rgba(3, 169, 244, 0.7);
-}
-#clients .btn-see-more:hover {
-  background: #fff;
-  border: 2px solid #448aff;
-}
-.mx-md-n5{
-  margin-right: -0.65rem !important;
-  margin-left: -0.65rem !important;
-}
+
 </style>
 </head>
 <script>
@@ -66,29 +34,9 @@
 	}
 </script>
 <body class="bg">
-<!--  <?php
-  // include 'src/nav.php';
-?> -->
-<header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/FALP.png" alt="" title="" width="100"></img></a>
-        <!-- <h1><a href="#hero">FALP</a></h1> -->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.php#hero">Home</a></li>
-          <li><a href="index.php#about">About Us</a></li>
-          <li><a href="index.php#call-to-action">Join Our Team</a></li>
-          <li><a href="index.php#events">Events</a></li>  
-          <li><a href="index.php#contact">Contact Us</a></li>
-          <!-- <li><a href="employee/login.php">Employee's Portal</a></li> -->
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header>
+ <?php
+  include 'src/nav.php';
+?>
   <section class="header-hiring">
   <div>
   </div>
@@ -163,10 +111,7 @@
     </div>
         </div>
       </div>
-  </section>
-  <br><br>
-  <section id="clients">
-    <div class="container-fluid" style="background-color: white;padding-bottom: 5px;">
+    <div class="container-fluid mt-3" id="snapshot">
       <div class="row">
         <div class="col-lg-12">
            <h2 class="title mt-3 ml-5">COMPANY SNAPSHOT</h2>
@@ -174,39 +119,39 @@
            <table style="margin-left: 120px;">
             <tbody>
             <tr>
-              <td> Industry:</td>
-              <td style="color: #1565c0">Manufacturing/Automotive</td>
+              <td class="tdSnap"> Industry:</td>
+              <td class="tdSnapDet">Manufacturing/Automotive</td>
               <td style="width:80px;"></td>
-              <td>Average Processing Time:</td>
-              <td style="color: #1565c0">    2 - 3 days </td>
+              <td class="tdSnap">Average Processing Time:</td>
+              <td class="tdSnapDet">    2 - 3 days </td>
             </tr>
             <tr>
-              <td> Telephone No:</td>
-              <td style="color: #1565c0"> (043) - 455 - 9600   </td>
+              <td class="tdSnap"> Telephone No:</td>
+              <td class="tdSnapDet"> (043) - 455 - 9600   </td>
               <td style="width:80px;"></td>
-              <td> Spoken Language:</td>
-              <td style="color: #1565c0">Filipino/English/Japanese </td>
+              <td class="tdSnap"> Spoken Language:</td>
+              <td class="tdSnapDet">Filipino/English/Japanese </td>
             </tr>
             <tr>
-              <td> Company Size:</td>
-              <td style="color: #1565c0"> More than 9,000 employees  </td>
+              <td class="tdSnap"> Company Size:</td>
+              <td class="tdSnapDet"> More than 9,000 employees  </td>
               <td style="width:80px;"></td>
-              <td> Benefits:</td>
-              <td style="color: #1565c0"> Transportation  - Our company provides shuttle services to different locations.</td>
+              <td class="tdSnap"> Benefits:</td>
+              <td class="tdSnapDet"> Transportation  - Our company provides shuttle services to different locations.</td>
             </tr>
             <tr>
-              <td> Working Hours: </td>
-              <td style="color: #1565c0">  16 </td>
+              <td class="tdSnap"> Working Hours: </td>
+              <td class="tdSnapDet">  16 </td>
               <td style="width:80px;"></td>
               <td> </td>
-              <td style="color: #1565c0">  Health Card - Cocolife </td>
+              <td class="tdSnapDet">  Health Card - Cocolife </td>
             </tr>
              <tr>
-              <td> Dress Code: </td>
-              <td style="color: #1565c0">   Company Uniform</td>
+              <td class="tdSnap"> Dress Code: </td>
+              <td class="tdSnapDet">   Company Uniform</td>
                 <td style="width:80px;"></td>
               <td> </td>
-              <td style="color: #1565c0">  Allowances:  Daily Meal Allowance and OT Meal Allowance.</td>
+              <td class="tdSnapDet">  Allowances:  Daily Meal Allowance and OT Meal Allowance.</td>
             </tr>
             </tbody>
            </table>
