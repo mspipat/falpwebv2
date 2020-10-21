@@ -116,7 +116,7 @@
                       <div class="table-responsive">
                          <a href="javascript:void(0)" class="btn btn-primary mb-2 btn-add"><i class="fa fa-plus"></i> Post a job</a>
 
-                        <table class="table table-bordered table-sm table-jobs" style="color:#000;">
+                        <table class="table table-bordered table-sm table-jobs" id="table-jobs" style="color:#000;">
                           <thead>
                             <tr>
                               <th>#</th>
@@ -175,7 +175,6 @@
   ?>
   <script>
     $(document).ready(function(){
-
     });
      $(document).on('click', '.btn-add', function(){
         PopupCenter('add-job.php','falp',800,600);

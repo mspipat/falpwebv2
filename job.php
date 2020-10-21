@@ -15,16 +15,6 @@
 
 ?>
 <style type="text/css">
-  .tag_line {
- /* color: #42a5f5;*/
- color: #1565c0;
-  font-size: 24px;
- /* text-shadow: 1px 1px #42a5f5;*/
-  background-color: #fff; 
-  opacity: 0.8;
-  /*border: 2px solid;*/
-  border-radius: 8px;
-}
  #clients .btn-see-more {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -168,7 +158,7 @@
 								  <form method="post" action="upload/upload_resume.php" enctype="multipart/form-data">
 								    <button class="btn btn-primary btn-file">
 									  <input type="hidden" id="uploaded_resume">
-									  <span id="loading_indicator"> Upload Resume </span><input type="file" id="resume" name="resume" onchange="upload()" accept="application/msword ,text/plain, application/pdf">
+									  <span id="loading_indicator"> Upload Resume </span><input type="file" id="resume" name="resume" onchange="upload()" accept="application/pdf">
 								    </button>
 								  </form>
 								  <button type="button" id="sendApplication" name="sendApplication" onclick="submitapplication()" class="btn btn-primary" disabled>Submit</button>
