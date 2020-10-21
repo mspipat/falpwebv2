@@ -20,6 +20,6 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css?v=2" rel="stylesheet">
+  <link href="css/style.css?v=3" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">

@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #01579b;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -510,7 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   color: #999;
 }
 
@@ -639,6 +639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: justify;
   color: black;
 }
+
 
 /* Facts Section
 --------------------------------*/
@@ -813,20 +814,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/building/LEFT SIDE VIEW 1.JPG") fixed center center; */
-  background: linear-gradient(rgba(3, 169, 244, 0.1), rgba(0, 0, 0, 0.6)), url("../img/building/LEFT SIDE VIEW 1.JPG") fixed center center;
+  background: linear-gradient(rgba(3, 169, 244, 0.1), rgba(0, 0, 0, 0.8)), url("../img/building/LEFT SIDE VIEW 1.JPG") fixed center center;
   background-size: cover;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 #call-to-action .cta-title {
-  color: #fff;
+  color: white;
+  text-shadow: 1px 1px black;
   font-size: 30px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #fff;
+  /* color: #fff; */
   font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px black;
+  
 }
 
 @media (min-width: 769px) {
@@ -848,14 +853,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid rgba(3, 169, 244, 0.7);
-  color: #fff;
+  background-color: white;
+  border: 2px solid #01579b;
+  color:#01579b;  
 }
 
 #call-to-action .cta-btn:hover {
-  background: rgba(3, 169, 244, 0.7);
-  border: 2px solid #448aff;
-  color: #fff;
+  background: #01579b;;
+  border: 2px solid white;
+  color: white;
 }
 
 /* Portfolio Section
@@ -967,8 +973,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: rgba(3, 169, 244, 0.7);
+  color: #01579b;
   float: left;
+  
 }
 
 #contact .info p {
@@ -1045,17 +1052,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"] {
   background: transparent;
-  border: 0;
   padding: 10px 24px;
-  color: rgba(3, 169, 244, 0.7);
   transition: 0.4s;
   border-radius: 50px;
-  border: 2px solid rgba(3, 169, 244, 0.7);
+  background-color: white;
+  border: 2px solid #01579b;
+  color:#01579b;
 }
 
 #contact .form button[type="submit"]:hover {
-  background-color: rgba(3, 169, 244, 0.7);
-  color: #fff;
+  background: #01579b;;
+  border: 2px solid white;
+  color: white;
 }
 
 /* Hiring.client Section

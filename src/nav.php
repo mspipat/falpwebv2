@@ -1,6 +1,6 @@
 <header id="header">
     <div class="container-fluid">
-      <div id="logo" class="pull-left">
+      <div id="logo" class="pull-left" style="padding-top: none;">
         <!-- <a href="#hero"><img src="img/FALP.png" alt="" title="" width="100"></img></a> -->
         <h1><a href="#hero" style="text-shadow: 2px 2px #01579b">FALP</a></h1>
       </div>

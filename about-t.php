@@ -1,161 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <?php
-  include 'src/head.php';
-?>
-  <style type="text/css">
-    #header {
-      background-color: #3F464A;
-    }
-  </style>
-</head>
-
-<body>
- <?php
-  include 'src/nav.php';
-?>
-  <br>
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container-fluid">
-        <div class="icon-box wow fadeInDown" data-wow-delay="0.2s">
-               <img class="img-fluid" src="img/building/FRONT VIEW 1.JPG" title="Furukawa Automotive Systems Lima Phils. Inc.">
-               <!-- <img class="img-fluid" src="img/about/fas.jpg" width="1138" height="250"> -->
-          </div>
-      </div>
+<section id="events">
       <div class="container">
-        <div class="row about-container">
-          <div class="col-lg-6 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInDown">
-              <h3> About Furukawa Automotive Systems Lima Phil., Inc.</h3>
-              <p class="text-justify">Furukawa Automotive Systems LIMA Philippines Inc. is an affiliate of Furukawa Automotive Systems under Furukawa Electric Group. FALP was certified by SEC on Jan. 16, 2012. Furukawa Automotive Systems started in 2007 as an organization that was the key driver in the pursuit of the automotive components- related businesses of the Furukawa Electric Group, in both name and fact, through a merger with the Automotive Products Division of Furukawa Electric Co., Ltd. The company manufactures automotive wire harnesses. With a basic policy of customers first and offering quality and services that are able to win customer’s trust and satisfaction, the company offers optimum solutions drawing on the abundant and diverse materials capabilities of the Group and with a mobility and footwork not found with large enterprises.</p>
-            </div>
-          </div>
-          <div class="col-lg-6 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInUp">
-              <p class="text-justify">Furukawa Automotive Systems (FAS) is a Japanese company that develops, designs and manufactures automotive wire harnesses.</p>
-            </div>
-            <div class="icon-box wow fadeInUp">
-              <p class="text-justify">Since its establishment in 1950, FAS has worked together with Furukawa Electric Co., Ltd. in promoting the progress of automotive industry. Due to increasing demand for wire harness and circuits, a new plant started its operation at the Lima Technology Center in Lipa City, Batangas  last July 2012. </p>
-            </div>
-            <div class="icon-box wow fadeInUp">
-              <p class="text-justify">The new Company, Furukawa Automotive Systems Lima Philippines, Inc. manufactures wire harness which functions as the veins and nerve system of vehicles. We are looking for dynamic and goal-driven individuals who are interested to join our pioneering team and establish a solid career.</p>
-            </div>
-            <div class="icon-box wow fadeInUp">
-              <p class="text-justify">Shuttle services from Rosario, Batangas City, Lipa, San Jose, Sto. Tomas, Padre Garcia and Sta. Teresita, San Pablo are provided.</p>
-            </div>
-          </div>
+          <div class="section-header">
+          <h3 class="section-title" style="margin-top:7%;">Events</h3>
+          <p class="section-description"> We have lot of events here! </p>
         </div>
-        <div class="row about-container">
-          <div class="col-lg-12 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">  
-              <div class="icon"><i class="fa fa-history"></i></div>
-                <h4 class="title">History</h4>
-                <p class="description"> FALP is currently delivering quality wire harness for seven (7) car models. In January 2012 the FALP Factory Construction began. FALP started production at a rental factory in July 2012. The FALP Lima Factory (Phase 1) commenced in early January 2013 and the production for Toyota started.  </p>
-              </div>
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">  
-                <p class="description"> On the success of delivering quality wire harnesses in Toyota,  FALP began manufacturing wire harnesses for Suzuki, Mazda, and Honda in the same year. </p>
-              </div>
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">  
-                <p class="description"> Due to FALP's dedication to delivering quality wire harnesses, FALP passed the ISO9001:2008 Certification in September 2013.  The FALP (Phase 2) development started in December 2013.  </p>
-              </div>
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">  
-                <p class="description"> FALP started the Production Design Center in January 2014 and started manufacturing wire harnesses for Nissan and Daihatsu in 2014. </p>
-              </div>
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">  
-                <p class="description">The FALP (Phase 3) development started in December 2018 and started manufacturing wire harness for Subaru in the year 2019. </p>
-              </div>
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> 
-                <p class="description">Earlier this year 2020, FALP Annex building started to operate.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row about-container">
-          <div class="col-lg-4 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInLeft">
-                <img class="img-fluid" src="img/building/Front 1.jpg" title="Furukawa Automotive Systems Lima Phils. Inc.">
-            </div>
-          </div>
-          <div class="col-lg-4 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInUp">
-            <img class="img-fluid" src="img/building/Annex2.jpg" title="Furukawa Automotive Systems Lima Phils. Inc.">
-            </div>
-          </div>
-          <div class="col-lg-4 content order-lg-1 order-2 mt-3">
-            <div class="icon-box wow fadeInRight">
-            <img class="img-fluid" src="img/building/LEFT SIDE VIEW zoom.jpg" title="Furukawa Automotive Systems Lima Phils. Inc.">
-            </div>
-          </div>
-        </div>
-      </div>    
-    </section><!-- #about -->
-    <section id="achievements">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Achievements</h3>
-          <p class="section-description"></p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-trophy"></i></div>
-                  <img src="img/achievements/ISO 9001 2008.png" width="180" height="180"></img>
-                  <h4 class="title">ISO 9001: 2008</h4>
-                   <p class="description">September 2013</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-trophy"></i></div>
-                <img src="img/achievements/IATF 16949 2016.png" width="180" height="180"></img>
-                <h4 class="title">IATF 16949: 2016</h4>
-                <p class="description">April 2018</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-trophy"></i></div> 
-                <img src="img/achievements/ISO 14001 2015.jpg" width="220" height="180"></img>
-                <h4 class="title">ISO 14001: 2015 </h4>
-                <p class="description">May 2018</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-trophy"></i></div>
-                <img src="img/achievements/sportfest/sport-1.jpg" width="300" height="200"></img>
-                <h4 class="title">LIMA SPORTFEST</h4>
-                <p class="description">Volleyball Boys won 1st Runner Up held last June 15, 2019 @ Mount Malarayat Golf & Country Club</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-          </div>
-        </div>
-           <!-- achievements -->
-  </section>
+  <center>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
 
-  </main>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" height="500" src="img/events/QCC-8winner.jpg" alt="olympic">
+      <div class="carousel-caption d-none d-md-block text-white">
+          <h5 style="text-shadow: 2px 1px black;"">8th QCC Cycle 1 2019 Winners</h5>
+        </div>
+    </div> <!-- 1 -->
+    <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/QCC-traningapril.jpeg" alt="qcc">
+      <div class="carousel-caption d-none d-md-block text-white">
+          <h5 style="text-shadow: 2px 1px black;""> QCC Training-April 2019</h5>
+        </div>
+    </div>  <!-- 2 -->
+  <!--  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/MSA 2.jpg" alt="msa">
+      <div class="carousel-caption d-none d-md-block text-white">
+          <h5 style="text-shadow: 2px 1px black;""> MSA Training-March 2019</h5>
+        </div>
+    </div> -->  <!-- 3 -->
+   <!--  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/BOSH.png" alt="bosh">
+      <div class="carousel-caption d-none d-md-block text-white">
+          <h5 style="text-shadow: 2px 1px black;""> Basic Occupational Safety & Health Training-Feb.2019</h5>
+        </div>
+    </div> -->  <!-- 4 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/olympic/olympic-2.jpg" alt="olympic">
+      <div class="carousel-caption d-none d-md-block text-white">
+          <h5 style="text-shadow: 2px 1px black;"">FALP OLYMPIC 2019</h5>
+        </div>
+    </div>  <!-- 5 -->
+  <!-- <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/summer/summer-1.jpg" alt="summer">
+      <div class="carousel-caption d-none d-md-block">
+           <p style="margin-top: -10px;text-shadow: 2px 1px black;">SUMMER OUTING 2019 <br> Held at Laiya, San Juan, Batangas</p>
+        </div>
+  </div> -->  <!-- 6 -->
+   <!-- <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/summer/summer-2.jpg" alt="summer">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">SUMMER OUTING 2019 <br> Summer Outing 2019 with Vietnamese Visitors</p>
+      </div>
+  </div> -->  <!-- 7 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch1-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 1</p>    
+        </div>
+  </div>  <!-- 8 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch2-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 2</p>    
+        </div>
+  </div>  <!-- 9 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch3-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 3</p>    
+        </div>
+  </div>  <!-- 10 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch4-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Acitvity Batch 4</p>    
+        </div>
+  </div>  <!-- 11 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch5-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 5</p>    
+        </div>
+  </div>  <!-- 12 -->
+  <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/batch6-st.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Staff Team BUilding Batch 6</p>    
+        </div>
+  </div>  <!-- 13 -->
+   <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/am1.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
+        </div>
+  </div>  <!-- 14 -->
+   <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/am2.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">TEAM BUILDING 2019 <br> 2019 Assistant Managers</p>    
+        </div>
+  </div>  <!-- 15 -->
 
- <?php
-  include 'src/script.php';
-?>
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
- <?php
-  include 'src/footer.php';
-?>
-<script>
-</script>
-</body>
-</html>
-
+   <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/xmas_partyX.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">CHRISTMAS PARTY 2018 <br> Dance Contest Winners</p>    
+        </div>
+  </div>  <!-- 16 -->
+   <div class="carousel-item">
+      <img class="d-block w-100" height="500" src="img/events/team/manager-1.jpg" alt="team">
+      <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">Our Managers! <br> Managers team building at Gratchi's Getaway, Tagaytay</p>    
+        </div>
+  </div>  <!-- 17 -->
+   <!-- <div class="carousel-item"> -->
+  <!--     <img class="d-block w-100" height="500" src="img/events/team/manager-2.jpg" alt="team"> -->
+      <!-- <div class="carousel-caption d-none d-md-block text-white">
+      <p style="margin-top: -10px;text-shadow: 2px 1px black;">Our Managers! <br> Managers team building at Gratchi's Getaway, Tagaytay</p>    
+        </div> -->
+  </div>  <!-- 18 -->
+  </div>
+    </div>
+</div>
+<br>
+      </div>
+    </section>
